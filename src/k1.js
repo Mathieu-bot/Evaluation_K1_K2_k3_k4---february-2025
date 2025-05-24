@@ -1,7 +1,4 @@
-export const makeAllPositive = (arr) => {
-    if (!arr) return [];
-    return arr.map(el => Math.abs(el));
-}
+export const makeAllPositive = (arr) => arr ? arr.map(el => Math.abs(el)) : [];
 
 
 export const isAscOrDesc = (arr) => {
